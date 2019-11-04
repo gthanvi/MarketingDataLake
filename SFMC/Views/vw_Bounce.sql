@@ -15,5 +15,4 @@ SELECT Client_ID
       ,Batch_ID
       ,Triggered_Send_External_Key
       ,_File
-      ,1 aa
   FROM "MARKETING_DB"."SFMC"."SFMC_ALL" where Event_Type = 'Bounce';
