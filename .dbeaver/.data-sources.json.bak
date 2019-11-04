@@ -1,0 +1,34 @@
+{
+	"folders": {},
+	"connections": {
+		"snowflake_jdbc-16e3566cca9-2efd5ac4c8976fa1": {
+			"provider": "snowflake",
+			"driver": "snowflake_jdbc",
+			"name": "Snowflake - Marketing_DB",
+			"save-password": true,
+			"read-only": false,
+			"configuration": {
+				"host": "bcgmarketing.us-east-1.snowflakecomputing.com",
+				"port": "443",
+				"server": "MarketingProd_WH",
+				"database": "Marketing_DB",
+				"url": "jdbc:snowflake://bcgmarketing.us-east-1.snowflakecomputing.com:443/?db=Marketing_DB&warehouse=MarketingProd_WH&role=ACCOUNTADMIN",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-authenticator@": "externalbrowser",
+					"@dbeaver-role@": "ACCOUNTADMIN"
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
